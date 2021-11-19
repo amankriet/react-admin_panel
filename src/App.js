@@ -15,6 +15,7 @@ const App = () => {
     dispatch(ThemeAction.setMode(themeClass));
     dispatch(ThemeAction.setColor(colorClass));
   }, [dispatch]);
+  
   return (
     <BrowserRouter>
       <Route
